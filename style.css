@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+.header-img , .header-login , .header-title {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 10;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 10;
+  margin-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px auto 13px;
+  width: 50%;
+}
+
+.gallery-card {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.096);
+  border-radius: 5%;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.096);
+  box-shadow: 2px 3px rgba(161, 161, 161, 0.5);
+}
+
+.gallery-card h4 {
+  display: flex;
+  margin-inline: 50px;
+}
+
+#js {
+  display: flex;
+  margin-left: 24px;
+}
+
+#rtl {
+  display: flex;
+  margin-right: 56px;
+  margin-left: auto;
+}
+
+.footer-container {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  margin-top: 130px;
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+.social-instagram {
+  display: flex;
+  height: 40px;
+  margin: 10px;
+}
+
+.social-linkedin {
+  display: flex;
+  height: 40px;
+  margin: 10px;
+}
